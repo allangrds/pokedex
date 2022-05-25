@@ -1,4 +1,4 @@
-# Rain.us Front-end: Pokedex Test
+Pokedex
 
 ## Contents
 

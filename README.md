@@ -1,4 +1,4 @@
-Pokedex
+# Pokedex
 
 ## Contents
 
@@ -8,13 +8,12 @@ Pokedex
 
 ## Requirements
 
-- Node v14.17.1
-- Yarn v1.22.17
+- Node v16.14.2(using Volta, it'll be installed after running `npm install`)
 
 ## Installation
 
-1. Execute `yarn` to install project dependencies
+1. Execute `npm install` to install project dependencies
 
 ## Usage
 
-1. Execute `yarn start` to open a server with this project
+1. Execute `npm run dev` to open a server with this project

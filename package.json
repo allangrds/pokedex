@@ -26,10 +26,18 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-sort-destructure-keys": "^1.4.0",
     "husky": "^8.0.0",
     "prettier": "2.6.2",
+    "tsutils": "^3.21.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.9"
   },
@@ -42,7 +50,7 @@
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "typecheck": "tsc --noEmit --incremental false",
     "clean": "rm -rf .dist && rm -rf node_modules",
-    "eslint": "eslint './src/' --ext .js,.jsx,.ts,.tsx"
+    "eslint": "eslint './src/' --ext .json,.js,.jsx,.ts,.tsx"
   },
   "volta": {
     "node": "16.14.2"

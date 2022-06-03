@@ -9,12 +9,19 @@
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:json/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:no-use-extend-native/recommended",
+    "plugin:react-hooks/recommended",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
+    "project": "./tsconfig.json",
     "ecmaFeatures": {
-        "jsx": true
+      "jsx": true
     },
     "ecmaVersion": "latest",
     "sourceType": "module"
@@ -22,11 +29,13 @@
   "plugins": [
     "react",
     "@typescript-eslint",
-    "prettier"
+    "prettier",
+    "sort-destructure-keys"
   ],
   "rules": {
     "prettier/prettier": "error",
     "arrow-body-style": "off",
-    "prefer-arrow-callback": "off"
+    "prefer-arrow-callback": "off",
+    "sort-destructure-keys/sort-destructure-keys": 2
   }
 }

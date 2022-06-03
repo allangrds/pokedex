@@ -22,16 +22,24 @@
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.0",
+    "prettier": "2.6.2",
     "typescript": "^4.6.3",
-    "vite": "^2.9.9",
-    "husky": "^8.0.0"
+    "vite": "^2.9.9"
   },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "commit": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+    "typecheck": "tsc --noEmit --incremental false",
+    "clean": "rm -rf .dist && rm -rf node_modules",
+    "eslint": "eslint './src/' --ext .js,.jsx,.ts,.tsx"
   },
   "volta": {
     "node": "16.14.2"

@@ -1,15 +1,19 @@
 # Solution
+
 <!-- Describe your solution -->
 
 # Layout
 
 ## Original
+
 <!-- Original layout proposed by product designer -->
 
 ## Implemented
+
 <!-- Implemented layout -->
 
 # How to test
+
 <!-- Step by step with how to test this mr. -->
 
 # Other

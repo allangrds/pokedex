@@ -1,13 +1,17 @@
 # Problem
+
 <!-- Why this mr exists? What is the problem? -->
 
 # Solution
+
 <!-- How do you fix the problem? -->
 
 # Layout
+
 <!-- Changed layout after fix -->
 
 # How to test
+
 <!-- Step by step with how to test this mr. -->
 
 # Other

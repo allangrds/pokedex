@@ -7,6 +7,7 @@ module.exports = {
     '@storybook/addon-actions',
     '@storybook/addon-a11y',
     '@storybook/addon-viewport',
+    '@chakra-ui/storybook-addon',
   ],
   framework: '@storybook/react',
   core: {
@@ -14,5 +15,6 @@ module.exports = {
   },
   features: {
     storyStoreV7: true,
+    emotionAlias: false,
   },
 }

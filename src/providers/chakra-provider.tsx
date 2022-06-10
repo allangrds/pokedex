@@ -10,7 +10,9 @@ type ChakraProviderProps = {
 }
 
 const ChakraProvider = ({ children }: ChakraProviderProps) => (
-  <Provider theme={theme}>{children}</Provider>
+  <Provider theme={theme} resetCSS>
+    {children}
+  </Provider>
 )
 
 export { ChakraProvider }

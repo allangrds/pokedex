@@ -1,12 +1,15 @@
 import * as React from 'react'
+
 import logo from './logo.svg'
 import './App.css'
+import { Pokemon } from './components'
 
 function App() {
   const [count, setCount] = React.useState(0)
 
   return (
     <div className="App">
+      <Pokemon />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>

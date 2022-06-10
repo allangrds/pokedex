@@ -1,0 +1,16 @@
+import * as React from 'react'
+import { Box, useMultiStyleConfig } from '@chakra-ui/react'
+import { useTranslation } from 'react-i18next'
+
+const {{pascalCase component_name}} = () => {
+  const { t } = useTranslation()
+  const styles = useMultiStyleConfig('{{pascalCase component_name}}', {})
+
+  return (
+    <Box sx={styles.wrapper}>
+      <p>{t('hello-world')}</p>
+    </Box>
+  )
+}
+
+export { {{pascalCase component_name}} }

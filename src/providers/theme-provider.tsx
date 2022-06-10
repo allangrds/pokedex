@@ -5,14 +5,14 @@ import { theme as defaultTheme } from '../theme'
 
 export const theme = extendTheme(defaultTheme)
 
-type ChakraProviderProps = {
+type ThemeProviderProps = {
   children: React.ReactNode
 }
 
-const ChakraProvider = ({ children }: ChakraProviderProps) => (
+const ThemeProvider = ({ children }: ThemeProviderProps) => (
   <Provider theme={theme} resetCSS>
     {children}
   </Provider>
 )
 
-export { ChakraProvider }
+export { ThemeProvider }

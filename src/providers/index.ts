@@ -1,1 +1,1 @@
-export { ChakraProvider } from './chakra-provider'
+export { ThemeProvider } from './theme-provider'

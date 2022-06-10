@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom'
 
 import { ChakraProvider } from './providers'
 
@@ -12,7 +13,9 @@ const rootElement = document.getElementById('root')!
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <ChakraProvider>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ChakraProvider>
   </React.StrictMode>
 )

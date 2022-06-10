@@ -11,7 +11,9 @@ export default {
   },
 } as ComponentMeta<typeof Pokemon>
 
-const Template: ComponentStory<typeof Pokemon> = (args) => <Pokemon {...args} />
+const Template: ComponentStory<typeof Pokemon> = (args: any) => (
+  <Pokemon {...args} />
+)
 
 export const Primary = Template.bind({})
 Primary.args = {

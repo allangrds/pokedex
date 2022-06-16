@@ -6,6 +6,8 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Commands](#commands)
+- [Storybook](#storybook)
+- [Project online](#project-online)
 
 ## Requirements
 
@@ -17,6 +19,7 @@
 
 ## Usage
 
+1. Execute `npm install` to install dependencies
 1. Execute `npm run dev` to open a server with this project
 
 ## Commands
@@ -32,3 +35,11 @@
 - `test`: run tests
 - `test:coverage`: run tests with coverage report
 - `test:watch`: run tests and watch for changes
+
+## Storybook
+
+You can run `npm run storybook` to start Storybook locally and output the address, ou you can access [chromatic storybook](https://62a2987285d9f8637b25d11a-ttknwtrbkp.chromatic.com/?path=/story/components-pokemonitem--default) to see it online.
+
+## Project online
+
+To see the project working without a local installation, access [here](pokedex-allangrds.vercel.app).

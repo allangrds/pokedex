@@ -38,8 +38,8 @@
 
 ## Storybook
 
-You can run `npm run storybook` to start Storybook locally and output the address, ou you can access [chromatic storybook](https://62a2987285d9f8637b25d11a-ttknwtrbkp.chromatic.com/?path=/story/components-pokemonitem--default) to see it online.
+You can run `npm run storybook` to start Storybook locally and output the address, ou you can access [chromatic storybook](https://62a2987285d9f8637b25d11a-flialbovzz.chromatic.com/?path=/story/components-badge--grass) to see it online.
 
 ## Project online
 
-To see the project working without a local installation, access [here](pokedex-allangrds.vercel.app).
+To see the project working without a local installation, access [here](https://pokedex-allangrds.vercel.app/).

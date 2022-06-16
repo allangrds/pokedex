@@ -19,7 +19,7 @@ const defaultProps = {
 const renderComponent = (props = defaultProps) =>
   render(<PokemonItem {...props} />)
 
-test('sh', async () => {
+test('should render the component', async () => {
   renderComponent()
 
   expect(selectors.name()).toBeInTheDocument()

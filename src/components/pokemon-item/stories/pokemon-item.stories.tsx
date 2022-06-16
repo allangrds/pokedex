@@ -2,6 +2,7 @@ import * as React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
 import { PokemonItem } from '../pokemon-item'
+import type { PokemonItemProps } from '../pokemon-item'
 import BulbasaurImage from './bulbasaur.png'
 
 export default {
@@ -9,9 +10,9 @@ export default {
   component: PokemonItem,
 } as ComponentMeta<typeof PokemonItem>
 
-const Template: ComponentStory<typeof PokemonItem> = (args: any) => (
-  <PokemonItem {...args} />
-)
+const Template: ComponentStory<typeof PokemonItem> = (
+  args: PokemonItemProps
+) => <PokemonItem {...args} />
 
 export const Default = Template.bind({})
 Default.args = {

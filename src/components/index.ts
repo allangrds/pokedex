@@ -1,1 +1,2 @@
+export { Badge } from './badge'
 export { PokemonItem } from './pokemon-item'

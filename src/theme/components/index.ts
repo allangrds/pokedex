@@ -1,7 +1,7 @@
 import { ThemeComponents } from '@chakra-ui/react'
 
-import { Pokemon } from './pokemon'
+import { PokemonItem } from './pokemon-item'
 
 export const components: ThemeComponents = {
-  Pokemon,
+  PokemonItem,
 }

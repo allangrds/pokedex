@@ -37,6 +37,7 @@
     "arrow-body-style": "off",
     "prefer-arrow-callback": "off",
     "sort-destructure-keys/sort-destructure-keys": 2,
-    "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}]
+    "react/no-unescaped-entities": ["error", {"forbid": [">", "}"]}],
+    "react/react-in-jsx-scope": "off"
   }
 }

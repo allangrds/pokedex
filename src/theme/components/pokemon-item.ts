@@ -24,13 +24,6 @@ export const PokemonItem: ComponentStyleConfig = {
       fontSize: '5xl',
       fontWeight: 'bold',
     },
-    type: {
-      borderWidth: 1,
-      borderColor: 'white',
-      borderRadius: 16,
-      paddingY: 1,
-      paddingX: 2,
-    },
     order: {
       color: 'white',
       fontSize: '8xl',

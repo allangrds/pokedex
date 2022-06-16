@@ -3,8 +3,12 @@ import {
   VStack,
   Image,
   useMultiStyleConfig,
+  Stack,
   Text,
 } from '@chakra-ui/react'
+
+import { Badge } from '../badge'
+import { colors } from '../../theme/colors'
 
 export type PokemonItemProps = {
   image: string
@@ -21,17 +25,15 @@ const PokemonItem = ({ image, name, order, types }: PokemonItemProps) => {
       <Image sx={styles.image} src={image} alt={name} />
       <VStack sx={styles.pokemonInformations}>
         <Text sx={styles.name}>{name}</Text>
-        <HStack>
+        <Stack direction="row">
           {types.map((type) => (
-            <Text
+            <Badge
               key={type}
-              sx={styles.type}
-              backgroundColor={`pokemon.${type}`}
-            >
-              {type}
-            </Text>
+              color={type as keyof typeof colors.pokemon}
+              text={type}
+            />
           ))}
-        </HStack>
+        </Stack>
       </VStack>
       <Text sx={styles.order}>#{order}</Text>
     </HStack>

@@ -7,6 +7,7 @@
 - [Usage](#usage)
 - [Commands](#commands)
 - [Storybook](#storybook)
+- [Folder structure](#folder-structure)
 - [Project online](#project-online)
 
 ## Requirements
@@ -39,6 +40,37 @@
 ## Storybook
 
 You can run `npm run storybook` to start Storybook locally and output the address, ou you can access [chromatic storybook](https://62a2987285d9f8637b25d11a-flialbovzz.chromatic.com/?path=/story/components-badge--grass) to see it online.
+
+## Folder structure
+
+```
+src/
+├
+├─ components/
+├
+├─ hooks/
+├
+├─ lib/
+├
+├─ modules/
+├
+├─ mocks/
+├
+├─ providers/
+├
+├─ routes/
+├
+├─ services/
+├
+├─ test/
+├
+├─ theme/
+├
+├─ types/
+├
+├─ utils/
+├
+```
 
 ## Project online
 

@@ -1,8 +1,7 @@
 const colors = {
-  brand: {
-    900: '#1a36dd',
-    800: '#153eff',
-    700: '#2a69bb',
+  gray: {
+    500: '#EAEAEB',
+    600: '#545454',
   },
   pokemon: {
     bug: '#e3ec8f',

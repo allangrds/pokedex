@@ -28,6 +28,11 @@ module.exports = function (plop) {
         type: 'add',
         path: './src/components/{{kebabCase component_name}}/{{kebabCase component_name}}.test.tsx',
         templateFile: 'plop/component/test-template.hbs'
+      },
+      {
+        type: 'add',
+        path: './src/theme/components/{{kebabCase component_name}}.test.tsx',
+        templateFile: 'plop/component/theme-template.hbs'
       }
     ]
 	})

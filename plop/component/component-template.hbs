@@ -2,7 +2,11 @@ import * as React from 'react'
 import { Box, useMultiStyleConfig } from '@chakra-ui/react'
 import { useTranslation } from 'react-i18next'
 
-const {{pascalCase component_name}} = () => {
+export type {{pascalCase component_name}}Props = {
+  name: string;
+}
+
+export const {{pascalCase component_name}} = ({ name }: {{pascalCase component_name}}Props) => {
   const { t } = useTranslation()
   const styles = useMultiStyleConfig('{{pascalCase component_name}}', {})
 
@@ -12,5 +16,3 @@ const {{pascalCase component_name}} = () => {
     </Box>
   )
 }
-
-export { {{pascalCase component_name}} }
